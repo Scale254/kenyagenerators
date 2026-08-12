@@ -2,11 +2,11 @@ import type { NextConfig } from "next";
 
 const cspHeader = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline' 'unsafe-eval';
+  script-src 'self';
   style-src 'self' 'unsafe-inline';
-  img-src 'self' data: https:;
-  font-src 'self' data:;
-  connect-src 'self' https:;
+  img-src 'self' data: https://res.cloudinary.com https://images.unsplash.com;
+  font-src 'self' data: https://fonts.gstatic.com;
+  connect-src 'self' https://res.cloudinary.com https://images.unsplash.com;
   media-src 'self';
   object-src 'none';
   frame-src 'none';
@@ -75,7 +75,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Cross-Origin-Embedder-Policy",
-            value: "require-corp",
+            value: "unsafe-none",
           },
         ],
       },
