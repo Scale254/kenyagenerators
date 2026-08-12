@@ -2,11 +2,11 @@ import type { NextConfig } from "next";
 
 const cspHeader = `
   default-src 'self';
-  script-src 'self';
+  script-src 'self' 'unsafe-inline' 'unsafe-eval';
   style-src 'self' 'unsafe-inline';
-  img-src 'self' data: https://res.cloudinary.com https://images.unsplash.com;
+  img-src 'self' data: https: blob:;
   font-src 'self' data: https://fonts.gstatic.com;
-  connect-src 'self' https://res.cloudinary.com https://images.unsplash.com;
+  connect-src 'self' https://res.cloudinary.com https://images.unsplash.com https://kenyagenerators.com;
   media-src 'self';
   object-src 'none';
   frame-src 'none';
