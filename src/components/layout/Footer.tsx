@@ -24,9 +24,9 @@ export function Footer() {
 
       <div className="container-kgcs relative">
         {/* Top */}
-        <div className="grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 py-16 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
-          <div className="lg:pr-6">
+          <div className="lg:pr-4">
             <Logo light />
             <p className="mt-5 text-sm leading-relaxed">
               {siteConfig.tagline}. Specialists in the supply, installation and
@@ -52,14 +52,15 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick links */}
+          {/* Quick Links - Column 1 (4 items) */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">
-              Company
+              Quick Links
             </h3>
             <ul className="mt-5 space-y-3 text-sm">
               {navigation
                 .filter((n) => !["Home"].includes(n.label))
+                .slice(0, 4)
                 .map((link) => (
                   <li key={link.href}>
                     <Link
@@ -74,13 +75,36 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
+          {/* Quick Links - Column 2 (4 items) */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">
-              Our Products
+              &nbsp;
             </h3>
             <ul className="mt-5 space-y-3 text-sm">
-              {productCategories.map((cat) => (
+              {navigation
+                .filter((n) => !["Home"].includes(n.label))
+                .slice(4, 8)
+                .map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="inline-flex items-center gap-2 transition-colors hover:text-accent"
+                    >
+                      <ArrowRight className="h-3.5 w-3.5 text-primary" />
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          {/* Products (4 items) */}
+          <div>
+            <h3 className="text-sm font-bold uppercase tracking-wider text-white">
+              Products
+            </h3>
+            <ul className="mt-5 space-y-3 text-sm">
+              {productCategories.slice(0, 3).map((cat) => (
                 <li key={cat.slug}>
                   <Link
                     href={`/products/${cat.slug}`}
@@ -106,7 +130,7 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">
-              Get in Touch
+              Contact
             </h3>
             <ul className="mt-5 space-y-4 text-sm">
               <li className="flex gap-3">
