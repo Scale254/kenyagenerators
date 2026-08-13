@@ -18,7 +18,7 @@ export function LogoMark({ className }: { className?: string }) {
       width={220}
       height={80}
       priority
-      className={cn("h-10 w-auto object-contain sm:h-12", className)}
+      className={cn("h-8 w-auto object-contain sm:h-10", className)}
     />
   );
 }

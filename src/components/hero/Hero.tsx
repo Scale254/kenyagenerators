@@ -87,7 +87,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-10 grid max-w-xl grid-cols-2 gap-2 sm:grid-cols-4"
+              className="mt-10 grid w-full max-w-md grid-cols-2 gap-2 sm:grid-cols-4"
             >
               {trustBadges.map((b) => (
                 <div key={b.title} className="flex flex-col items-center gap-2 text-center">
