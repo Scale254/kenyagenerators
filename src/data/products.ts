@@ -56,8 +56,7 @@ export const products: Product[] = [
     tagline: "Trusted British engineering",
     description:
       "Powered by genuine Perkins engines, these generator sets deliver dependable prime and standby power with excellent fuel economy and long service intervals.",
-    image:
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTiHji3Dd4mgyoLeMntFf5f9q8Zw9X0vC-Ti41zyY8BbuilPUb1Zs5XE3wtRzGB9BUGO4-oOuPYjrq56oqghpLwbJjNfANDtBxXXQYXsBGpq1yvdg9otZNUUJTBlHYyiFJlodvVA3s&usqp=CAc",
+    image: "/images/generator8.jpg",
     brands: ["Perkins"],
     specs: [
       { label: "Power Range", value: "9 – 2000 kVA" },
