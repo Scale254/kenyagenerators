@@ -1,4 +1,4 @@
-import type {
+ell import type {
   Service,
   Project,
   Testimonial,
@@ -316,57 +316,107 @@ export const clientLogos: ClientLogo[] = [
 export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-choose-the-right-diesel-generator",
-    title: "How to Choose the Right Diesel Generator for Your Business",
+    title: "How to Choose the Right Diesel Generator for Your Business in Kenya",
     excerpt:
-      "Sizing, fuel efficiency, noise and standby vs prime power — a practical guide to selecting the perfect generator.",
+      "Sizing, fuel efficiency, noise and standby vs prime power — a practical guide to selecting the perfect generator for Kenyan businesses.",
     content: [
       "Choosing the right diesel generator starts with understanding your load. List every appliance and machine you need to power, note their starting and running wattage, and add a safety margin of around 20–25% for future growth.",
       "Next, decide between standby and prime power. Standby generators kick in during outages, while prime-power sets are built to run continuously. This choice affects the engine rating and warranty.",
-      "Fuel efficiency and noise matter too. Modern Perkins and Cummins engines offer excellent fuel economy, and soundproof canopies keep noise low — essential for hospitals, hotels and offices.",
-      "Finally, factor in installation, automatic transfer switches and a preventive maintenance plan. Our team performs a full site load analysis to recommend the ideal unit for your needs.",
+      "Fuel efficiency and noise matter too. Modern Perkins and Cummins engines offer excellent fuel economy, and soundproof canopies keep noise low — essential for hospitals, hotels and offices in Nairobi and across Kenya.",
+      "Finally, factor in installation, automatic transfer switches and a preventive maintenance plan. Our team at Kenya Generators & Compressors Solutions performs a full site load analysis to recommend the ideal unit for your needs.",
     ],
     category: "Guides",
     author: "KGCS Technical Team",
     date: "2025-01-15",
     readTime: "5 min read",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/generator2.jpeg",
   },
   {
     slug: "generator-preventive-maintenance-checklist",
-    title: "Generator Preventive Maintenance Checklist",
+    title: "Generator Preventive Maintenance Checklist for Kenya Businesses",
     excerpt:
-      "Keep your generator reliable with this essential preventive maintenance routine.",
+      "Keep your generator reliable with this essential preventive maintenance routine from KGCS technicians.",
     content: [
-      "Preventive maintenance is the single best way to guarantee your generator starts when you need it. A neglected set is the most common cause of outage failures.",
+      "Preventive maintenance is the single best way to guarantee your generator starts when you need it. A neglected set is the most common cause of outage failures in Kenya's power grid.",
       "Weekly: inspect for leaks, check coolant and oil levels, and run a no-load test. Monthly: test under load, inspect the battery and clean air filters.",
       "Quarterly and annually: change oil and filters, inspect the alternator and control panel, test the automatic transfer switch, and overhaul as required.",
-      "A maintenance contract with KGCS takes this off your plate — our technicians follow a documented schedule and keep genuine spare parts on hand.",
+      "A maintenance contract with KGCS takes this off your plate — our technicians follow a documented schedule and keep genuine spare parts on hand for Perkins, Cummins and other brands.",
     ],
     category: "Maintenance",
     author: "KGCS Technical Team",
     date: "2025-02-02",
     readTime: "4 min read",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/maintenance1.jpeg",
   },
   {
     slug: "electric-vs-diesel-air-compressors",
-    title: "Electric vs Diesel Air Compressors: Which Is Right for You?",
+    title: "Electric vs Diesel Air Compressors: Which Is Right for Your Kenya Business?",
     excerpt:
-      "Understand the trade-offs between electric and diesel-driven compressors for your application.",
+      "Understand the trade-offs between electric and diesel-driven compressors for your application in Kenya.",
     content: [
       "Air compressors come in electric and diesel-driven variants, each suited to different environments. Electric compressors are ideal where mains power is reliable and indoor operation is required.",
-      "Diesel-driven compressors shine on remote sites and construction projects where grid power is unavailable, offering mobility and independence.",
-      "Consider duty cycle, air demand (CFM), pressure (bar) and ambient conditions. Ingersoll Rand, Atlas Copco and Chicago Pneumatic all offer strong options.",
-      "Our team helps you match the right compressor to your workflow and provides full installation, piping and after-sales support.",
+      "Diesel-driven compressors shine on remote sites and construction projects across Kenya where grid power is unavailable, offering mobility and independence.",
+      "Consider duty cycle, air demand (CFM), pressure (bar) and ambient conditions. Ingersoll Rand, Atlas Copco and Chicago Pneumatic all offer strong options available through KGCS.",
+      "Our team helps you match the right compressor to your workflow and provides full installation, piping and after-sales support across Kenya.",
     ],
     category: "Guides",
     author: "KGCS Technical Team",
     date: "2025-02-20",
     readTime: "5 min read",
-    image:
-      "https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/compressor.jpeg",
+  },
+  {
+    slug: "diesel-generator-fuel-efficiency-tips",
+    title: "Diesel Generator Fuel Efficiency Tips for Kenyan Businesses",
+    excerpt:
+      "Reduce fuel costs and extend generator life with these proven efficiency tips from KGCS experts.",
+    content: [
+      "Fuel costs are one of the biggest expenses when running a diesel generator in Kenya. Simple practices can significantly reduce consumption and extend engine life.",
+      "Right-size your generator: an oversized unit burns more fuel at low loads. Our load analysis ensures you get the correct kVA rating.",
+      "Regular maintenance keeps engines running efficiently — clean air filters, proper oil levels and timely filter changes all matter.",
+      "Consider load management: run non-essential equipment during grid power hours and reserve generator use for critical loads only.",
+    ],
+    category: "Tips",
+    author: "KGCS Technical Team",
+    date: "2025-03-10",
+    readTime: "4 min read",
+    image: "/images/generator3.jpeg",
+  },
+  {
+    slug: "air-compressor-maintenance-guide",
+    title: "Air Compressor Maintenance Guide for Industrial Users in Kenya",
+    excerpt:
+      "Essential maintenance tips to keep your air compressor running efficiently in Kenya's industrial environments.",
+    content: [
+      "Industrial air compressors are workhorses in Kenya's manufacturing, construction and automotive sectors. Proper maintenance ensures reliability and longevity.",
+      "Daily checks: drain condensate, check oil levels, inspect for leaks and unusual noises.",
+      "Weekly: clean intake filters, check belt tension, inspect safety valves and test pressure switches.",
+      "Monthly: change oil and filters, inspect motor bearings, check electrical connections and calibrate pressure gauges.",
+      "KGCS provides genuine spare parts for Ingersoll Rand, Atlas Copco and Chicago Pneumatic compressors with nationwide delivery.",
+    ],
+    category: "Maintenance",
+    author: "KGCS Technical Team",
+    date: "2025-03-25",
+    readTime: "5 min read",
+    image: "/images/compressor1.jpeg",
+  },
+  {
+    slug: "generator-installation-guide-kenya",
+    title: "Complete Generator Installation Guide for Kenya Businesses",
+    excerpt:
+      "Everything you need to know about professional generator installation, from site prep to commissioning.",
+    content: [
+      "Professional generator installation is critical for safety, performance and warranty compliance. Here's what KGCS covers during installation.",
+      "Site preparation: proper ventilation, exhaust routing, fuel storage and noise considerations for your location.",
+      "Electrical connections: automatic transfer switch installation, cable sizing, grounding and protection devices.",
+      "Testing and commissioning: load bank testing, ATS transfer testing, control panel programming and operator training.",
+      "KGCS provides turnkey installation services across Kenya with full documentation and warranty support.",
+    ],
+    category: "Installation",
+    author: "KGCS Technical Team",
+    date: "2025-04-05",
+    readTime: "6 min read",
+    image: "/images/installation.jpeg",
   },
 ];
 
