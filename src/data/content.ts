@@ -371,30 +371,46 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const galleryImages = [
+  // Generators
   {
     src: "/images/industrial_generator.png",
-    alt: "Diesel generator installation",
+    alt: "Industrial diesel generator",
     category: "Generators",
   },
   {
-    src: "/images/compressor.jpeg",
-    alt: "Air compressor unit",
-    category: "Compressors",
+    src: "/images/generato1.jpeg",
+    alt: "Diesel generator unit",
+    category: "Generators",
   },
   {
-    src: "/images/installation.jpeg",
-    alt: "Electrical panel work",
-    category: "Electrical",
+    src: "/images/generator2.jpeg",
+    alt: "Generator installation",
+    category: "Generators",
   },
   {
-    src: "/images/power.png",
-    alt: "Industrial machinery",
-    category: "Installation",
+    src: "/images/generator3.jpeg",
+    alt: "Generator maintenance",
+    category: "Generators",
   },
   {
-    src: "/images/spareparts.png",
-    alt: "Spare parts inventory",
-    category: "Spare Parts",
+    src: "/images/generator4.jpeg",
+    alt: "Generator service",
+    category: "Generators",
+  },
+  {
+    src: "/images/generator5.jpeg",
+    alt: "Generator repair",
+    category: "Generators",
+  },
+  {
+    src: "/images/generator6.jpeg",
+    alt: "Generator parts",
+    category: "Generators",
+  },
+  {
+    src: "/images/generator7.jpeg",
+    alt: "Generator testing",
+    category: "Generators",
   },
   {
     src: "/images/genset.jpeg",
@@ -402,14 +418,83 @@ export const galleryImages = [
     category: "Generators",
   },
   {
+    src: "/images/power.png",
+    alt: "Power generator system",
+    category: "Generators",
+  },
+  // Compressors
+  {
+    src: "/images/compressor.jpeg",
+    alt: "Air compressor unit",
+    category: "Compressors",
+  },
+  {
+    src: "/images/compressor1.jpeg",
+    alt: "Industrial air compressor",
+    category: "Compressors",
+  },
+  {
+    src: "/images/Ingnesool_Rand_compressor.png",
+    alt: "Ingersoll Rand compressor",
+    category: "Compressors",
+  },
+  // Spare Parts
+  {
+    src: "/images/spareparts.png",
+    alt: "Spare parts inventory",
+    category: "Spare Parts",
+  },
+  {
+    src: "/images/spare1.jpg",
+    alt: "Generator spare parts",
+    category: "Spare Parts",
+  },
+  {
+    src: "/images/spare2.jpg",
+    alt: "Compressor spare parts",
+    category: "Spare Parts",
+  },
+  {
+    src: "/images/spare3.jpg",
+    alt: "Genuine spare parts",
+    category: "Spare Parts",
+  },
+  // Maintenance
+  {
+    src: "/images/maintenance1.jpeg",
+    alt: "Preventive maintenance",
+    category: "Maintenance",
+  },
+  {
+    src: "/images/maintenance2.jpeg",
+    alt: "Equipment servicing",
+    category: "Maintenance",
+  },
+  {
     src: "/images/about_hero.png",
     alt: "Technician at work",
     category: "Maintenance",
   },
+  // Installation
   {
-    src: "/images/Ingnesool_Rand_compressor.png",
-    alt: "Workshop maintenance",
-    category: "Maintenance",
+    src: "/images/installation.jpeg",
+    alt: "Electrical panel installation",
+    category: "Installation",
+  },
+  {
+    src: "/images/installation1.jpeg",
+    alt: "Generator installation",
+    category: "Installation",
+  },
+  {
+    src: "/images/installation2.jpeg",
+    alt: "Compressor installation",
+    category: "Installation",
+  },
+  {
+    src: "/images/installation3.jpeg",
+    alt: "System commissioning",
+    category: "Installation",
   },
 ];
 
