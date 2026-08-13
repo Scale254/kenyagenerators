@@ -7,7 +7,7 @@ export const productCategories: ProductCategory[] = [
     short: "Reliable, fuel-efficient standby & prime power.",
     description:
       "Compact, fuel-efficient and low-noise diesel generators engineered to solve all of your power needs — from small commercial standby sets to large industrial prime-power installations.",
-    image: "/images/industrial_generator.png",
+    image: "/images/generator4.jpeg",
     icon: "Zap",
     highlights: [
       "Perkins, Cummins & Lovol engines",
