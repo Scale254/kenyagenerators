@@ -9,7 +9,7 @@ interface LogoProps {
   compact?: boolean;
 }
 
-/** KGCS brand logo image. */
+/** KGCS brand logo image — constrained to fit within navbar height. */
 export function LogoMark({ className }: { className?: string }) {
   return (
     <Image
@@ -18,7 +18,10 @@ export function LogoMark({ className }: { className?: string }) {
       width={220}
       height={80}
       priority
-      className={cn("h-6 w-auto object-contain sm:h-7", className)}
+      className={cn(
+        "h-7 w-auto max-h-[calc(var(--header-height)-1rem)] object-contain sm:h-8",
+        className
+      )}
     />
   );
 }
