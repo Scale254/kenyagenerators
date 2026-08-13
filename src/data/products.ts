@@ -7,7 +7,7 @@ export const productCategories: ProductCategory[] = [
     short: "Reliable, fuel-efficient standby & prime power.",
     description:
       "Compact, fuel-efficient and low-noise diesel generators engineered to solve all of your power needs — from small commercial standby sets to large industrial prime-power installations.",
-    image: "/images/generator4.jpeg",
+    image: "/images/generator9.jpg",
     icon: "Zap",
     highlights: [
       "Perkins, Cummins & Lovol engines",
@@ -124,8 +124,7 @@ export const products: Product[] = [
     tagline: "Industrial-grade reliability",
     description:
       "Belt-driven Ingersoll Rand compressors delivering consistent air supply for workshops, manufacturing and industrial processes.",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/ingnersoll_rand.jpg",
     brands: ["Ingersoll Rand"],
     specs: [
       { label: "Type", value: "Belt driven" },
@@ -148,8 +147,7 @@ export const products: Product[] = [
     tagline: "Energy-efficient air power",
     description:
       "Atlas Copco compressors known for energy efficiency and durability, suited for demanding commercial and industrial air applications.",
-    image:
-      "https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/atlas_copco.jpg",
     brands: ["Atlas Copco"],
     specs: [
       { label: "Type", value: "Belt driven" },
@@ -171,8 +169,7 @@ export const products: Product[] = [
     tagline: "Versatile & dependable",
     description:
       "Chicago Pneumatic belt-driven compressors offering a versatile solution for commercial workshops and light industrial use.",
-    image:
-      "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/chicago_pneumatic.jpg",
     brands: ["Chicago Pneumatic"],
     specs: [
       { label: "Type", value: "Belt driven" },

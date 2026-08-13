@@ -43,8 +43,7 @@ export const services: Service[] = [
       "Electrical power panels service",
       "Emergency & preventive maintenance",
     ],
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/generato1.jpeg",
   },
   {
     slug: "installation",

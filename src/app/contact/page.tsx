@@ -101,7 +101,7 @@ export default function ContactPage() {
           <div className="overflow-hidden rounded-3xl border border-black/5 shadow-lg">
             <iframe
               title="KGCS location map"
-              src="https://www.google.com/maps?q=Athi+House,+Off+ABM+Ltd,+Makadara+Road,+Athi+River,+Kenya&output=embed"
+              src="https://www.google.com/maps?q=Makadara+Road,+Athi+River,+Kenya&output=embed"
               width="100%"
               height="420"
               loading="lazy"
