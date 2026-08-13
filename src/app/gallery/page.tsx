@@ -42,31 +42,14 @@ export default function GalleryPage() {
             {beforeAfter.map((ba) => (
               <Reveal key={ba.title}>
                 <div className="overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm">
-                  <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-                    <div className="relative aspect-square">
-                      <Image
-                        src={ba.before}
-                        alt={`${ba.title} before`}
-                        fill
-                        sizes="100vw"
-                        className="object-cover"
-                      />
-                      <span className="absolute left-3 top-3 rounded-full bg-secondary/80 px-3 py-1 text-xs font-bold text-white">
-                        Before
-                      </span>
-                    </div>
-                    <div className="relative aspect-square">
-                      <Image
-                        src={ba.after}
-                        alt={`${ba.title} after`}
-                        fill
-                        sizes="100vw"
-                        className="object-cover"
-                      />
-                      <span className="absolute right-3 top-3 rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
-                        After
-                      </span>
-                    </div>
+                  <div className="relative aspect-[16/9]">
+                    <Image
+                      src={ba.image}
+                      alt={ba.title}
+                      fill
+                      sizes="(max-width:768px) 100vw, 50vw"
+                      className="object-cover"
+                    />
                   </div>
                   <div className="p-6">
                     <h3 className="text-lg font-bold text-secondary">

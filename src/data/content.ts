@@ -501,19 +501,13 @@ export const galleryImages = [
 export const beforeAfter = [
   {
     title: "Generator Overhaul",
-    before:
-      "https://images.unsplash.com/photo-1580983218765-f663bec07b37?auto=format&fit=crop&w=900&q=80",
-    after:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    image: "/images/generator_overhaul.jpg",
     description:
       "Complete mechanical engine overhaul restoring a failing generator to full reliable output.",
   },
   {
     title: "Electrical Panel Upgrade",
-    before:
-      "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&w=900&q=80",
-    after:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80",
+    image: "/images/electrical_panel.png",
     description:
       "Old distribution board replaced with a safe, modern power distribution panel.",
   },
