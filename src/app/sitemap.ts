@@ -1,42 +1,48 @@
-import type { MetadataRoute } from "next";
-import { siteConfig } from "@/data/site";
+import { MetadataRoute } from "next";
+import { navigation } from "@/data/site";
 import { productCategories } from "@/data/products";
-import { blogPosts } from "@/data/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = siteConfig.url;
-  const now = new Date();
+  const baseUrl = "https://kenyagenerators.co.ke";
 
-  const staticRoutes = [
-    "",
-    "/about",
-    "/products",
-    "/services",
-    "/projects",
-    "/gallery",
-    "/clients",
-    "/blog",
-    "/contact",
-  ].map((path) => ({
-    url: `${base}${path}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: path === "" ? 1 : 0.8,
-  }));
+  // Static pages from navigation
+  const staticPages = navigation
+    .filter((n) => !n.children)
+    .map((n) => ({
+      url: `${baseUrl}${n.href}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: n.href === "/" ? 1 : 0.8,
+    }));
 
-  const categoryRoutes = productCategories.map((c) => ({
-    url: `${base}/products/${c.slug}`,
-    lastModified: now,
+  // Product category pages
+  const productPages = productCategories.map((cat) => ({
+    url: `${baseUrl}/products/${cat.slug}`,
+    lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  const blogRoutes = blogPosts.map((p) => ({
-    url: `${base}/blog/${p.slug}`,
-    lastModified: new Date(p.date),
-    changeFrequency: "yearly" as const,
-    priority: 0.6,
+  // Services sub-pages
+  const servicePages = [
+    { url: `${baseUrl}/services#electrical`, priority: 0.6 },
+    { url: `${baseUrl}/services#maintenance`, priority: 0.6 },
+    { url: `${baseUrl}/services#installation`, priority: 0.6 },
+  ].map((s) => ({
+    ...s,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...blogRoutes];
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    ...staticPages,
+    ...productPages,
+    ...servicePages,
+  ];
 }
