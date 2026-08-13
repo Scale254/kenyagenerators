@@ -30,18 +30,17 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Before / After */}
+      {/* Service Transformations */}
       <section className="bg-light py-20 lg:py-28">
         <div className="container-kgcs">
           <SectionHeading
-            eyebrow="Before & After"
             title="Service transformations"
             description="See the difference our overhaul and repair services make."
           />
           <div className="mt-14 grid gap-10 md:grid-cols-2">
             {beforeAfter.map((ba) => (
               <Reveal key={ba.title}>
-                <div className="overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm">
+                <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm">
                   <div className="relative aspect-[16/9]">
                     <Image
                       src={ba.image}
@@ -51,7 +50,7 @@ export default function GalleryPage() {
                       className="object-cover"
                     />
                   </div>
-                  <div className="p-6">
+                  <div className="flex flex-1 flex-col p-6">
                     <h3 className="text-lg font-bold text-secondary">
                       {ba.title}
                     </h3>
