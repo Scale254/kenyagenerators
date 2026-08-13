@@ -25,6 +25,7 @@ export const siteConfig = {
     phonesDisplay: ["+254 728 399 145", "+254 731 043 285"],
     whatsapp: "254728399145",
     emails: [
+      "sales@kenyagenerators.com",
       "kenyasolutions23@gmail.com",
       "kenyagenerators.compressors@gmail.com",
     ],
@@ -32,14 +33,14 @@ export const siteConfig = {
     directorTitle: "Technical Director",
   },
   address: {
-    line1: "Loipi Building — Room 20",
-    line2: "Lunga Lunga Road",
-    city: "Nairobi",
+    line1: "P.O Box 4766-00507",
+    line2: "Athi House, Off ABM Ltd, Makadara Road",
+    city: "Athi River",
     country: "Kenya",
-    full: "Loipi Building — Room 20, Lunga Lunga Road, Nairobi, Kenya",
-    mapQuery: "Lunga+Lunga+Road+Nairobi+Kenya",
-    lat: -1.3082,
-    lng: 36.8541,
+    full: "P.O Box 4766-00507, Athi House, Off ABM Ltd, Makadara Road, Athi River, Kenya",
+    mapQuery: "Athi+House+Makadara+Road+Athi+River+Kenya",
+    lat: -1.4501,
+    lng: 36.9782,
   },
   hours: {
     weekdays: "Mon – Fri: 8:00 AM – 5:30 PM",
@@ -47,7 +48,7 @@ export const siteConfig = {
     sunday: "Sun: Emergency service only",
   },
   social: {
-    facebook: "#",
+    facebook: "https://www.facebook.com/p/Kenya-Generators-Compressors-Solutions-Ltd-100063836011530/",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
