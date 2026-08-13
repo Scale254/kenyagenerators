@@ -18,7 +18,7 @@ export function LogoMark({ className }: { className?: string }) {
       width={220}
       height={80}
       priority
-      className={cn("h-8 w-auto object-contain sm:h-10", className)}
+      className={cn("h-6 w-auto object-contain sm:h-7", className)}
     />
   );
 }
@@ -27,7 +27,7 @@ export function Logo({ className }: LogoProps) {
   return (
     <Link
       href="/"
-      className={cn("group flex items-center gap-3", className)}
+      className={cn("group flex items-center gap-2", className)}
       aria-label={`${siteConfig.shortName} — Home`}
     >
       <LogoMark className="shrink-0 transition-transform duration-300 group-hover:rotate-[8deg]" />
