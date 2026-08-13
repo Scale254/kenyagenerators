@@ -1,4 +1,4 @@
-ell import type {
+import type {
   Service,
   Project,
   Testimonial,

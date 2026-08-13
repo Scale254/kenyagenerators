@@ -140,13 +140,13 @@ export function Footer() {
               <li className="flex gap-3">
                 <Phone className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
                 <span className="flex flex-col">
-                  {siteConfig.contact.phones.map((p, i) => (
+                  {siteConfig.contact.phonesDisplay.map((display, i) => (
                     <a
-                      key={p}
-                      href={`tel:${p}`}
+                      key={display}
+                      href={`tel:${siteConfig.contact.phones[i]}`}
                       className="transition-colors hover:text-accent"
                     >
-                      {siteConfig.contact.phonesDisplay[i]}
+                      {display}
                     </a>
                   ))}
                 </span>
