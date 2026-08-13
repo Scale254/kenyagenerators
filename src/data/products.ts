@@ -57,7 +57,7 @@ export const products: Product[] = [
     description:
       "Powered by genuine Perkins engines, these generator sets deliver dependable prime and standby power with excellent fuel economy and long service intervals.",
     image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTiHji3Dd4mgyoLeMntFf5f9q8Zw9X0vC-Ti41zyY8BbuilPUb1Zs5XE3wtRzGB9BUGO4-oOuPYjrq56oqghpLwbJjNfANDtBxXXQYXsBGpq1yvdg9otZNUUJTBlHYyiFJlodvVA3s&usqp=CAc",
     brands: ["Perkins"],
     specs: [
       { label: "Power Range", value: "9 – 2000 kVA" },
@@ -80,8 +80,7 @@ export const products: Product[] = [
     tagline: "Heavy-duty industrial power",
     description:
       "Cummins-powered sets built for continuous industrial operation, offering rugged reliability, strong load acceptance and global parts support.",
-    image:
-      "https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/generator4.jpeg",
     brands: ["Cummins"],
     specs: [
       { label: "Power Range", value: "20 – 1500 kVA" },
@@ -104,8 +103,7 @@ export const products: Product[] = [
     tagline: "Cost-effective dependable power",
     description:
       "Affordable, fuel-efficient Lovol generator sets ideal for small businesses, retail and residential standby power without compromising reliability.",
-    image:
-      "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/generator9.jpg",
     brands: ["Lovol"],
     specs: [
       { label: "Power Range", value: "8 – 150 kVA" },
