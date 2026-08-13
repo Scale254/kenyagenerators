@@ -173,20 +173,18 @@ export function Hero() {
 
       {/* Stats strip */}
       <div className="relative z-10 bg-secondary">
-        <div className="container-kgcs grid grid-cols-1 divide-white/10 py-5 text-white sm:grid-cols-3 sm:divide-x">
+        <div className="container-kgcs grid grid-cols-3 gap-2 py-4 text-white sm:grid-cols-3">
           {stats.map((s, i) => (
             <div
               key={i}
-              className="flex items-center justify-center gap-3 py-2"
+              className="flex flex-col items-center gap-1.5 py-2 text-center"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-accent">
-                <s.icon className="h-5 w-5" />
+              <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-accent sm:h-11 sm:w-11">
+                <s.icon className="h-4 w-4 sm:h-5 sm:w-5" />
               </span>
-              <span className="flex flex-col leading-tight">
-                <span className="text-lg font-extrabold">{s.big}</span>
-                <span className="text-[11px] text-white/60">
-                  {s.small}
-                </span>
+              <span className="text-base font-extrabold sm:text-lg">{s.big}</span>
+              <span className="text-[10px] leading-tight text-white/60 sm:text-[11px]">
+                {s.small}
               </span>
             </div>
           ))}
